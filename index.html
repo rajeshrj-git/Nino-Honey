@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aazhi Products</title>
+    <meta name="description"
+        content="Discover the ancient wisdom of herbal with Aazhi's pure, handcrafted herbal products for skin, hair, and wellness.">
+    <!-- Professional Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/logo.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <div class="logo-icon">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Aazhi</span>
+                    <span class="logo-tagline">Products</span>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-desktop">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="btn-icon" id="cartBtn" aria-label="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+                <button class="btn-icon btn-menu" id="menuBtn" aria-label="Menu">
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#products" class="mobile-nav-link">Products</a></li>
+            <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+            <li><a href="#testimonial" class="mobile-nav-link">Testimonial</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-cta">
+            <a href="#products" class="btn-primary">
+                <span>Shop Now</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section - Updated with Lottie Leaves & New Features -->
+    <section class="hero" id="home">
+        <div class="hero-bg" data-aos="fade-up">
+            <!-- Lottie Leaves Animation -->
+            <!-- <lottie-player class="hero-leaves" src="https://assets.lottiefiles.com/packages/lf20_yjkmpspc.json"
+                background="transparent" speed="1" loop autoplay preserveAspectRatio="xMidYMid slice"></lottie-player> -->
+
+            <!-- Soft gradient blobs -->
+            <div class="hero-blob blob-1"></div>
+            <div class="hero-blob blob-2"></div>
+
+            <!-- Floating particles -->
+            <div class="particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+
+        <div class="hero-container">
+            <!-- Single Hero Visual - No product image needed -->
+            <div class="hero-visual-single">
+                <div class="hero-visual">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>100% Natural</span>
+                    </div>
+                    <!-- Animated Floating Leaves -->
+                    <div class="floating-leaves">
+                        <i class="fa-solid fa-leaf leaf-1"></i>
+                        <i class="fa-solid fa-spa leaf-2"></i>
+                        <i class="fa-solid fa-seedling leaf-3"></i>
+                        <i class="fa-solid fa-leaf leaf-4"></i>
+                    </div>
+                </div>
+
+                <!-- Updated Features Trust Strip -->
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-seedling"></i>
+                        <div>
+                            <h4>100% Natural Ingredients</h4>
+                            <p>Pure herbs sourced from organic farms across India</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-book-open"></i>
+                        <div>
+                            <h4>Traditional Herbal</h4>
+                            <p>Ancient recipes passed down through generations</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-shield-alt"></i>
+                        <div>
+                            <h4>Chemical-Free & Safe</h4>
+                            <p>No harmful additives or preservatives</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-recycle"></i>
+                        <div>
+                            <h4>Eco-Friendly Packaging</h4>
+                            <p>Sustainable materials for a better tomorrow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="hero-main">
+                <h1 class="hero-title">
+                    Pure Herbal Care for <span class="highlight">Healthy You</span>
+                </h1>
+                <p class="hero-description">
+                    Traditional Herbal products handcrafted for your skin, hair & wellness.
+                    Made with love in Tamil Nadu.
+                </p>
+                <div class="hero-cta">
+                    <a href="#products" class="btn-primary">
+                        <span>Shop Products</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/918883311488" class="btn-secondary" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>WhatsApp Us</span>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <!-- Scroll hint -->
+            <div class="scroll-hint">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- quick stats -->
+    <section class="quick-stats" id="quickStats">
+        <div class="stat">
+            <div class="stat-value" data-target="15">0</div>
+            <div class="stat-label">Products</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" data-target="1000">0</div>
+            <div class="stat-label">Customers</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" data-target="100">0</div>
+            <div class="stat-label">Natural</div>
+        </div>
+    </section>
+
+    <!-- product section -->
+
+    <section id="products" class="products-section">
+        <div class="products-header">
+            <h2 class="products-title">Our Herbal Products</h2>
+            <p class="products-subtitle">
+                Handcrafted Herbal blends for your daily skin, hair, and wellness rituals.
+            </p>
+        </div>
+
+        <!-- Category Filter Section -->
+<div class="category-filter-section">
+    <div class="category-buttons">
+        <button class="category-btn active" data-category="all">
+            <i class="fa-solid fa-border-all"></i>
+            <span>All Products</span>
+        </button>
+        <button class="category-btn" data-category="powder">
+            <i class="fa-solid fa-mortar-pestle"></i>
+            <span>Powders</span>
+        </button>
+        <button class="category-btn" data-category="oil">
+            <i class="fa-solid fa-droplet"></i>
+            <span>Oils</span>
+        </button>
+    </div>
+</div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Cards will be rendered by JS -->
+        </div>
+    </section>
+    <!-- ABOUT SECTION - FILLED RICH DESIGN -->
+    <section id="about" class="about-section">
+        <div class="about-bg-pattern"></div>
+
+        <div class="about-container">
+            <div class="about-intro">
+                <span class="about-badge">
+                    <i class="fa-solid fa-leaf"></i>
+                    About Aazhi
+                </span>
+                <h2 class="about-title">
+                    Rooted in <span class="highlight">Herbal Wisdom</span><br>
+                    Crafted for Modern Life
+                </h2>
+                <p class="about-lead">
+                    Born from Tamil Nadu's herbal traditions, Aazhi brings time-tested Herbal formulations
+                    into simple, everyday rituals for radiant skin, strong hair, and balanced wellness.
+                </p>
+            </div>
+
+            <div class="about-content-grid">
+                <!-- Left: Story + Values -->
+                <div class="about-story">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <h3>Our Story</h3>
+                        <p>
+                            Inspired by household recipes passed down through generations, we handcraft small-batch
+                            herbal blends using pure ingredients from trusted organic farms across India.
+                            No synthetic additives, just clean botanical power.
+                        </p>
+
+                        <div class="about-image-collage">
+                            <div class="collage-item collage-1">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="collage-item collage-2">
+                                <i class="fa-solid fa-spa"></i>
+                            </div>
+                            <div class="collage-item collage-3">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Right: Visual Stats + CTA -->
+                <div class="about-visual">
+                    <div class="about-hero-card">
+                        <div class="hero-card-badge">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+                        <h3>Your Daily Wellness Ritual</h3>
+                        <p>From nalangu maavu bath powders to herbal hair oils—every blend is designed to fit seamlessly
+                            into your routine.</p>
+
+
+                        <a href="#products" class="btn-primary">
+                            <span>Explore Products</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS - 3D CARD SLIDER -->
+    <section id="testimonial" class="testimonials-section">
+        <div class="testimonials-bg"></div>
+
+        <div class="testimonials-container">
+            <div class="testimonials-header">
+                <span class="section-badge">Customer Stories</span>
+                <h2 class="testimonials-title">Trusted by Real People</h2>
+                <p class="testimonials-subtitle">
+                    Thousands have made Aazhi part of their daily wellness rituals.
+                    Here's what they're saying.
+                </p>
+            </div>
+
+            <div class="testimonials-3d-slider">
+                <div class="testimonial-3d-card active" data-index="0">
+                    <div class="card-3d-inner">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                               <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-meta">
+                                <h4>Sneha Ramesh</h4>
+                                <p>Chennai • Skin Care</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"Nalangu Maavu completely replaced my body wash. My skin feels naturally soft and glowing
+                                after every bath. Love the subtle herbal fragrance!"</p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <span class="verified-badge">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified Purchase
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-3d-card" data-index="1">
+                    <div class="card-3d-inner">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-meta">
+                                <h4>Arun Kumar</h4>
+                                <p>Coimbatore • Hair Care</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"The hair oil and powder combo worked wonders. My hairfall reduced noticeably in just 3
+                                weeks. Scalp feels healthier than ever!"</p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <span class="verified-badge">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified Purchase
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-3d-card" data-index="2">
+                    <div class="card-3d-inner">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fa-solid fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-meta">
+                                <h4>Deepa Mohan</h4>
+                                <p>Bengaluru • Wellness</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"Wellness mix is my morning ritual now. Tastes gentle in warm water and keeps me
+                                energized throughout the day. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <span class="verified-badge">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified Purchase
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-controls">
+                <button class="testimonial-nav-btn prev" id="prevTestimonial">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots" id="testimonialDots"></div>
+                <button class="testimonial-nav-btn next" id="nextTestimonial">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <!-- FOOTER SECTION -->
+    <footer class="footer" id="contact">
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <!-- Column 1: Brand & Social -->
+                <div class="footer-col-brand">
+                    <a href="/" class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <div class="logo-icon">
+                                <img src="./assets/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-logo-text">
+                            <span class="footer-logo-name">Aazhi</span>
+                            <span class="footer-logo-tagline">Products</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">
+                        Pure Herbal blends handcrafted in Tamil Nadu
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/918883311488" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Contact Info -->
+                <div class="footer-col-contact">
+                    <h4 class="footer-heading">Get in Touch</h4>
+
+                    <div class="contact-block">
+                        <div class="contact-icon-wrap">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Address</p>
+                            <p class="contact-value">
+                                No. 12/1, 25th Cross (Left)<br>
+                                Plot No. 253/3, Vasan Valley<br>
+                                Malliampathu, Trichy - 620102<br>
+                                Tamil Nadu, India
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-row">
+                        <div class="contact-block">
+                            <div class="contact-icon-wrap">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+                                <a href="tel:+918883311488" class="contact-value">+91 88833 11488</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-block">
+                            <div class="contact-icon-wrap">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">WhatsApp</p>
+                                <a href="https://wa.me/918883311488" target="_blank" class="contact-value">+91 88833
+                                    11488</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-block">
+                        <div class="contact-icon-wrap">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:aazhiproducts24@gmail.com"
+                                class="contact-value">aazhiproducts24@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3: Map -->
+                <div class="footer-col-map">
+                    <h4 class="footer-heading">Find Us</h4>
+                    <div class="map-embed">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8016749321473!2d78.64416317003096!3d10.826484134702323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5f65523406ff%3A0x4be589238a653301!2s25th%20Cross%20Rd%2C%20Vasan%20City%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620102!5e0!3m2!1sen!2sin!4v1765018969839!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <h4 class="footer-heading" style="margin-top: 10px;">Useful Links</h4>
+                    <ul class="useful-links-container">
+                        <li><a href="./privacy-policy.html" target="_blank">Privacy Policy</a></li>
+                        <li><a href="./refund-policy.html" target="_blank">Refund Policy</a></li>
+                        <li><a href="./shipping-policy.html" target="_blank">Shipment Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Bar -->
+        <div class="footer-copyright-bar">
+            <div class="footer-copyright-content">
+                <p>© 2025 Aazhi Products. All rights reserved. Handcrafted with <i class="fa-solid fa-heart"></i>
+                    in Tamil Nadu</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating cart button -->
+    <button class="floating-cart" id="floatingCartBtn" aria-label="View Cart">
+        <span class="floating-cart-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </span>
+        <span class="floating-cart-count" id="floatingCartCount">0</span>
+    </button>
+
+
+
+    <!-- view cart section -->
+    <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+        <div class="cart-drawer-header">
+            <h3>Your Cart</h3>
+            <button class="cart-drawer-close" id="cartDrawerClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="cart-drawer-body" id="cartDrawerBody">
+            <!-- items inserted via JS -->
+        </div>
+        <div class="cart-drawer-footer">
+            <div class="cart-total">
+                <span>Total (incl. delivery)</span>
+                <strong id="cartDrawerTotal">₹0</strong>
+            </div>
+            <button class="btn-primary cart-checkout-btn" id="upiPayBtn">
+                <span>Pay via UPI</span>
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+            </button>
+        </div>
+
+    </aside>
+
+    <!-- Payment Modal -->
+    <div class="payment-modal-backdrop" id="paymentModalBackdrop"></div>
+    <div class="payment-modal" id="paymentModal" aria-hidden="true">
+        <div class="payment-modal-content">
+            <div class="payment-modal-header">
+                <h3>Customer Details</h3>
+                <button class="payment-modal-close" id="paymentModalClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="customerDetailsForm" class="customer-form">
+                <div class="form-group">
+                    <label for="customerName">
+                        <i class="fa-solid fa-user"></i> Full Name *
+                    </label>
+                    <input type="text" id="customerName" name="name" required placeholder="Enter your full name" />
+                </div>
+
+                <div class="form-group">
+                    <label for="customerEmail">
+                        <i class="fa-solid fa-envelope"></i> Email Address *
+                    </label>
+                    <input type="email" id="customerEmail" name="email" required placeholder="your.email@example.com" />
+                </div>
+
+                <div class="form-group">
+                    <label for="customerPhone">
+                        <i class="fa-solid fa-phone"></i> Phone Number *
+                    </label>
+                    <input type="tel" id="customerPhone" name="phone" required placeholder="+91 XXXXX XXXXX"
+                        pattern="[0-9+\s-]+" />
+                </div>
+
+                <div class="form-group">
+                    <label for="customerAddress">
+                        <i class="fa-solid fa-location-dot"></i> Complete Address *
+                    </label>
+                    <textarea id="customerAddress" name="address" required rows="3"
+                        placeholder="House No., Street, Area, City, State, PIN Code"></textarea>
+                </div>
+
+                <div class="form-error" id="formError"></div>
+
+                <button type="submit" class="btn-primary btn-submit-order" id="submitOrderBtn">
+                    <span id="submitBtnText">
+                        <i class="fa-solid fa-check"></i> Confirm & Proceed to Payment
+                    </span>
+                    <span id="submitBtnLoader" style="display: none;">
+                        <i class="fa-solid fa-spinner fa-spin"></i> Processing...
+                    </span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Payment Processing Modal -->
+    <div class="payment-processing-modal" id="paymentProcessingModal" aria-hidden="true">
+        <div class="payment-processing-content">
+            <div class="payment-processing-header">
+                <h3>Payment Gateway</h3>
+            </div>
+
+            <div class="payment-info">
+                <div class="payment-order-info">
+                    <p><strong>Order Number:</strong> <span id="displayOrderNumber">-</span></p>
+                    <p><strong>Amount:</strong> ₹<span id="displayAmount">0</span></p>
+                </div>
+
+                <div class="payment-simulation">
+                    <p class="payment-note">
+                        <i class="fa-solid fa-info-circle"></i>
+                        Payment gateway not integrated yet. Use test buttons below:
+                    </p>
+
+                    <div class="payment-test-buttons">
+                        <button class="btn-success" id="simulateSuccessBtn">
+                            <i class="fa-solid fa-check-circle"></i> Simulate Success
+                        </button>
+                        <button class="btn-danger" id="simulateFailureBtn">
+                            <i class="fa-solid fa-times-circle"></i> Simulate Failure
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success/Failure Message Modal -->
+    <div class="result-modal-backdrop" id="resultModalBackdrop"></div>
+    <div class="result-modal" id="resultModal" aria-hidden="true">
+        <div class="result-modal-content">
+            <div class="result-icon" id="resultIcon">
+                <!-- Icon will be inserted by JS -->
+            </div>
+            <h3 id="resultTitle">Payment Status</h3>
+            <p id="resultMessage">Processing...</p>
+            <button class="btn-primary" id="resultModalClose">Close</button>
+        </div>
+    </div>
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+  duration: 800,
+  once: false,     // allow repeat animations
+  mirror: true     // animate elements when scrolling back up
+});
+
+</script> -->
+
+
+    <script src="./js/emailjs-config.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/animation.js"></script>
+
+    
+    <script src="./js/supabase-config.js"></script>
+    <script src="./js/payment-handler.js"></script>
+
+</body>
+
+</html>
