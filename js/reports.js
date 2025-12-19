@@ -534,7 +534,7 @@ function renderOrderModal(order) {
     </div>
     <div style="text-align: center; margin: 2rem 0;">
     <a 
-        href="https://wa.me/${order.customer_phone}?text=Hello%20${encodeURIComponent(order.customer_name)},%20regarding%20your%20Aazhi%20order%20${order.order_number}" 
+        href="https://wa.me/${order.customer_phone}?text=Hello%20${encodeURIComponent(order.customer_name)},%20regarding%20your%20Liams%20order%20${order.order_number}" 
         target="_blank"
         class="btn-primary" 
         style="display: inline-flex; text-decoration: none;">
@@ -620,7 +620,7 @@ function exportToExcel() {
   
   // Generate filename with timestamp
   const timestamp = new Date().toISOString().slice(0, 10);
-  const filename = `aazhi-orders-${timestamp}.xlsx`;
+  const filename = `Liams-orders-${timestamp}.xlsx`;
   
   // Download file
   XLSX.writeFile(wb, filename);
@@ -678,7 +678,7 @@ function exportToCSV() {
   const url = URL.createObjectURL(blob);
   
   const timestamp = new Date().toISOString().slice(0, 10);
-  const filename = `aazhi-orders-${timestamp}.csv`;
+  const filename = `Liams-orders-${timestamp}.csv`;
   
   link.setAttribute('href', url);
   link.setAttribute('download', filename);
@@ -712,7 +712,7 @@ function printOrder(orderId) {
         </head>
         <body>
             <div class="header">
-                <div class="logo">🌿 Aazhi Products</div>
+                <div class="logo">🌿 Liams Products</div>
                 <p>Order Receipt</p>
             </div>
             

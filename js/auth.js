@@ -1,13 +1,13 @@
 // auth.js
 // Simple authentication system for reports page
 
-const AUTH_KEY = 'aazhi_reports_auth';
+const AUTH_KEY = 'Liams_reports_auth';
 const SESSION_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 // Admin credentials (In production, use backend authentication)
 const ADMIN_CREDENTIALS = {
   username: 'admin',
-  password: 'aazhi2025'
+  password: 'Liams2025'
 };
 
 // Check if user is authenticated

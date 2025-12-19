@@ -98,7 +98,7 @@ if ('IntersectionObserver' in window && statsSection) {
 // const products = [
 //     {
 //         id: 'skin-glow',
-//         name: 'Skin Glow Herbal Powder',
+//         name: 'Skin Glow Natural Powder',
 //         description: 'Traditional ayurvedic blend for radiant, healthy skin. Made with turmeric, sandalwood, and rose petals.',
 //         image: 'https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=600&h=600&fit=crop&q=80',
 //         benefits: [
@@ -116,8 +116,8 @@ if ('IntersectionObserver' in window && statsSection) {
 //     },
 //     {
 //         id: 'hair-health',
-//         name: 'Hair Health Herbal Powder',
-//         description: 'Nourishing herbal formula for strong, lustrous hair. Combines amla, shikakai, and bhringraj.',
+//         name: 'Hair Health Natural Powder',
+//         description: 'Nourishing Natural formula for strong, lustrous hair. Combines amla, shikakai, and bhringraj.',
 //         image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&h=600&fit=crop&q=80',
 //         benefits: [
 //             { icon: 'fa-seedling', text: 'Promotes hair growth' },
@@ -134,7 +134,7 @@ if ('IntersectionObserver' in window && statsSection) {
 //     },
 //     {
 //         id: 'wellness-mix',
-//         name: 'Wellness Herbal Mix',
+//         name: 'Wellness Natural Mix',
 //         description: 'Daily wellness booster with ashwagandha, moringa, and tulsi for immunity and vitality.',
 //         image: 'https://images.unsplash.com/photo-1516715043227-1cdf27bcd09a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 //         benefits: [
@@ -152,8 +152,8 @@ if ('IntersectionObserver' in window && statsSection) {
 //     },
 
 //     {
-//         id: 'herbal-hair-oil',
-//         name: 'Herbal Hair Oil',
+//         id: 'Natural-hair-oil',
+//         name: 'Natural Hair Oil',
 //         description: 'Natural blend for hair growth, scalp nourishment, and reduced hair fall.',
 //         image: 'assets/images/HairOil.png',
 //         benefits: [
@@ -168,9 +168,9 @@ if ('IntersectionObserver' in window && statsSection) {
 //         ]
 //     },
 //     {
-//         id: 'herbal-hair-pack',
-//         name: 'Herbal Hair Pack',
-//         description: 'Strengthening herbal formulation for smooth, shiny, and strong hair.',
+//         id: 'Natural-hair-pack',
+//         name: 'Natural Hair Pack',
+//         description: 'Strengthening Natural formulation for smooth, shiny, and strong hair.',
 //         image: 'assets/images/HairPack.png',
 //         benefits: [
 //             { icon: 'fa-leaf', text: 'Strengthens hair roots' },
@@ -184,8 +184,8 @@ if ('IntersectionObserver' in window && statsSection) {
 //         ]
 //     },
 //     {
-//         id: 'herbal-hair-dye',
-//         name: 'Herbal Hair Dye',
+//         id: 'Natural-hair-dye',
+//         name: 'Natural Hair Dye',
 //         description: 'Chemical-free natural hair dye for dark and healthy hair.',
 //         image: 'assets/images/HairPack.png',
 //         benefits: [
@@ -202,7 +202,7 @@ if ('IntersectionObserver' in window && statsSection) {
 //     {
 //         id: 'nalangu-maavu-male',
 //         name: 'Nalangu Maavu (Male)',
-//         description: 'Traditional herbal bath powder for men—skin cleansing, freshness, and glow.',
+//         description: 'Traditional Natural bath powder for men—skin cleansing, freshness, and glow.',
 //         image: 'assets/images/NalanguMaavu_Male.png',
 //         benefits: [
 //             { icon: 'fa-sun', text: 'Removes tan' },
@@ -218,7 +218,7 @@ if ('IntersectionObserver' in window && statsSection) {
 //     {
 //         id: 'nalangu-maavu-female',
 //         name: 'Nalangu Maavu (Female)',
-//         description: 'Ayurvedic herbal bath powder for glowing, soft, and healthy skin.',
+//         description: 'Ayurvedic Natural bath powder for glowing, soft, and healthy skin.',
 //         image: 'assets/images/NalanguMaavu_Female.png',
 //         benefits: [
 //             { icon: 'fa-sparkles', text: 'Enhances glow' },
@@ -239,120 +239,118 @@ if ('IntersectionObserver' in window && statsSection) {
 // PRODUCTS DATA - UPDATED WITH 4 PRODUCTS
 const products = [
     {
-        id: 'hair-oil',
-        name: 'Herbal Hair Oil',
-        category: 'oil',
-        description: 'Natural blend for hair growth, scalp nourishment, and reduced hair fall.',
+        id: 'raw-forest-honey',
+        name: 'BeeKiss Raw Forest Honey',
+        category: 'honey',
+        description: 'Pure, raw, and unprocessed forest honey collected from natural beehives.',
         images: [
-            'assets/images/hair-oil-1.webp',
-            'assets/images/hair-oil-2.webp',
-            'assets/images/hair-oil-3.webp'
+            'assets/honey/honey-1.png',
+            'assets/honey/honey-2.png',
+            'assets/honey/honey-3.png'
         ],
         benefits: [
-            { icon: 'fa-leaf', text: 'Promotes hair growth' },
-            { icon: 'fa-droplet', text: 'Deep scalp nourishment' }
+            { icon: 'fa-seedling', text: 'Raw & unprocessed' },
+            { icon: 'fa-heart-pulse', text: 'Boosts immunity' }
         ],
-        ingredients: ['Coconut Oil', 'Castor Oil', 'Amla', 'Bhringraj', 'Fenugreek'],
-        usage: 'Apply a small amount to the scalp and massage gently. Leave for 1 hour before washing.',
+        ingredients: ['Natural Forest Nectar'],
+        usage: 'Consume 1 spoon daily or mix with warm water.',
         sizes: [
-            { size: '100ml', price: 249, sku: 'HO-100' },
-            { size: '200ml', price: 399, sku: 'HO-200' }
+            { size: '250g', price: 349, sku: 'BK-FH-250' },
+            { size: '500g', price: 649, sku: 'BK-FH-500' }
         ]
     },
+
     {
-        id: 'hair-growth-pack',
-        name: 'Hair Growth Pack',
-        category: 'powder',
-        description: 'Strengthening herbal formulation for smooth, shiny, and strong hair.',
+        id: 'wild-honey',
+        name: 'BeeKiss Wild Honey',
+        category: 'honey',
+        description: 'Strong-flavored wild honey sourced from untouched forest regions.',
         images: [
-            'assets/images/hair-growth-1.webp',
-            'assets/images/hair-growth-2.webp',
-            'assets/images/hair-growth-3.webp'
+            'assets/honey/honey-1.png',
+            'assets/honey/honey-2.png',
+            'assets/honey/honey-3.png'
         ],
         benefits: [
-            { icon: 'fa-leaf', text: 'Strengthens hair roots' },
-            { icon: 'fa-sparkles', text: 'Adds natural shine' },
-            { icon: 'fa-droplet', text: 'Reduces dandruff' }
+            { icon: 'fa-bolt', text: 'Natural energy booster' },
+            { icon: 'fa-shield-heart', text: 'Improves digestion' }
         ],
-        ingredients: ['Amla', 'Shikakai', 'Brahmi', 'Reetha'],
-        usage: 'Mix with water or curd and apply to scalp and hair. Leave for 20 minutes.',
+        ingredients: ['Wild Flower Nectar'],
+        usage: 'Best consumed with warm water or milk.',
         sizes: [
-            { size: '100g', price: 249, sku: 'HGP-100' }
+            { size: '250g', price: 329, sku: 'BK-WH-250' }
         ]
     },
+
     {
-        id: 'hair-dye',
-        name: 'Herbal Hair Dye',
-        category: 'powder',
-        description: 'Chemical-free natural hair dye for dark and healthy hair.',
+        id: 'organic-honey',
+        name: 'BeeKiss Organic Honey',
+        category: 'honey',
+        description: 'Light, floral honey perfect for daily use and natural sweetness.',
         images: [
-            'assets/images/hair-dye-1.webp',
-            'assets/images/hair-dye-2.webp',
-            'assets/images/hair-dye-3.webp'
+            'assets/honey/honey-1.png',
+            'assets/honey/honey-2.png',
+            'assets/honey/honey-3.png'
         ],
         benefits: [
-            { icon: 'fa-palette', text: 'Natural coloring' },
-            { icon: 'fa-shield-heart', text: 'No chemicals' },
-            { icon: 'fa-leaf', text: 'Strengthens hair' }
+            { icon: 'fa-leaf', text: 'Chemical-free' },
+            { icon: 'fa-sparkles', text: 'Rich in antioxidants' }
         ],
-        ingredients: ['Henna', 'Indigo', 'Amla', 'Bhringraj'],
-        usage: 'Mix with warm water, apply evenly to hair, and leave for 1–2 hours.',
+        ingredients: ['Organic Flower Nectar'],
+        usage: 'Use as a natural sweetener or daily tonic.',
         sizes: [
-            { size: '100g', price: 299, sku: 'HD-100' }
+            { size: '250g', price: 299, sku: 'BK-OH-250' }
         ]
     },
+
     {
-    id: 'nalangu-maavu-male',
-    name: 'Nalangu Maavu (Male)',
-    category: 'powder',
-    description: 'Traditional herbal bath powder for men—skin cleansing, freshness, and natural glow.',
-    images: [
-        'assets/images/nalangu-mavu-1.webp',
-        'assets/images/nalangu-mavu-2.webp',
-        'assets/images/nalangu-mavu-3.webp'
-    ],
-    benefits: [
-        { icon: 'fa-sun', text: 'Removes tan' },
-        { icon: 'fa-sparkles', text: 'Enhances glow' },
-        { icon: 'fa-leaf', text: '100% natural' }
-    ],
-    ingredients: ['Green Gram', 'Wild Turmeric', 'Rose Petal', 'Sandalwood'],
-    usage: 'Mix with water or milk and apply all over the body. Rinse after 5 minutes.',
-    sizes: [
-        { size: '100g', price: 169, sku: 'NM-M-100' },
-        { size: '250g', price: 299, sku: 'NM-M-250' }
-    ]
-},
-{
-    id: 'nalangu-maavu-female',
-    name: 'Nalangu Maavu (Female)',
-    category: 'powder',
-    description: 'Traditional herbal bath powder for women—skin cleansing, freshness, and natural glow.',
-    images: [
-        'assets/images/nalangu-mavu-1.webp',
-        'assets/images/nalangu-mavu-2.webp',
-        'assets/images/nalangu-mavu-3.webp'
-    ],
-    benefits: [
-        { icon: 'fa-sun', text: 'Removes tan' },
-        { icon: 'fa-sparkles', text: 'Enhances glow' },
-        { icon: 'fa-leaf', text: '100% natural' }
-    ],
-    ingredients: ['Green Gram', 'Wild Turmeric', 'Rose Petal', 'Sandalwood'],
-    usage: 'Mix with water or milk and apply all over the body. Rinse after 5 minutes.',
-    sizes: [
-        { size: '100g', price: 169, sku: 'NM-F-100' },
-        { size: '250g', price: 299, sku: 'NM-F-250' },
-        { size: '500g', price: 599, sku: 'NM-F-500' },
-        { size: '1kg', price: 999, sku: 'NM-F-1K' }
-    ]
-}
+        id: 'ginger-infused-honey',
+        name: 'BeeKiss Ginger Infused Honey',
+        category: 'infused',
+        description: 'Raw honey infused with ginger for digestion and cold relief.',
+        images: [
+            'assets/honey/honey-1.png',
+            'assets/honey/honey-2.png',
+            'assets/honey/honey-3.png'
+        ],
+        benefits: [
+            { icon: 'fa-fire', text: 'Relieves cold & cough' },
+            { icon: 'fa-stomach', text: 'Improves digestion' }
+        ],
+        ingredients: ['Raw Honey', 'Natural Ginger Extract'],
+        usage: 'Take 1 spoon directly or with warm water.',
+        sizes: [
+            { size: '250g', price: 379, sku: 'BK-GH-250' }
+        ]
+    },
+
+    {
+        id: 'tulsi-infused-honey',
+        name: 'BeeKiss Tulsi Infused Honey',
+        category: 'infused',
+        description: 'Pure honey infused with tulsi for immunity and respiratory health.',
+        images: [
+            'assets/honey/honey-1.png',
+            'assets/honey/honey-2.png',
+            'assets/honey/honey-3.png'
+        ],
+        benefits: [
+            { icon: 'fa-lungs', text: 'Supports breathing' },
+            { icon: 'fa-shield-virus', text: 'Immunity booster' }
+        ],
+        ingredients: ['Raw Honey', 'Tulsi Extract'],
+        usage: 'Consume daily in the morning or before sleep.',
+        sizes: [
+            { size: '250g', price: 389, sku: 'BK-TH-250' },
+            { size: '500g', price: 729, sku: 'BK-TH-500' }
+        ]
+    }
 ];
+
 // Active category filter
 let activeCategory = 'all';
 
 // Local storage helpers
-const CART_KEY = 'aazhi_cart';
+const CART_KEY = 'Liams_cart';
 
 function getCart() {
     try {

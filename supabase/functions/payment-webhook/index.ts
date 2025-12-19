@@ -135,8 +135,8 @@ async function sendOrderEmail(order: any) {
         user_id: emailjsKey,
         template_params: {
           ...emailParams,
-          email: 'aazhiproducts24@gmail.com',
-          to_name: 'Aazhi Products Admin'
+          email: 'Liamsproducts24@gmail.com',
+          to_name: 'Liams Products Admin'
         }
       })
     })
